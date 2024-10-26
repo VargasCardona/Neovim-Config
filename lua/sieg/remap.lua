@@ -3,6 +3,12 @@ vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 vim.keymap.set("c", "<Tab>", "<C-C><Esc>")
 vim.keymap.set("i", "<Tab>", "<Esc>`^")
 
+vim.api.nvim_set_keymap("i", "<CapsLock>", "<Tab>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<CapsLock>", "i<Tab>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "<F13>", "<Tab>", { noremap = true, silent = true })
+
+vim.opt.clipboard = "unnamedplus"
+
 vim.keymap.set("n", "<Up>", "<Nop>")
 vim.keymap.set("n", "<Down>", "<Nop>")
 vim.keymap.set("n", "<Left>", "<Nop>")

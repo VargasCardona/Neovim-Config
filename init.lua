@@ -1,5 +1,6 @@
 require("sieg.remap")
 require("sieg.init")
+require("sieg.packer")
 require("lualine").setup()
 require('live-server').setup(opts)
 require('nvim-ts-autotag').setup()
