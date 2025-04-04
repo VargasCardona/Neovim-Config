@@ -13,13 +13,21 @@ return require('packer').startup(function(use)
 
   -- Pugins
 
+  use "nvim-lua/plenary.nvim" 
+
+  use 'mbbill/undotree' -- Undo history
+
+  use {
+	  "ThePrimeagen/harpoon",  -- Switch easily between files
+	  branch = "harpoon2",
+	  requires = { {"nvim-lua/plenary.nvim"} }
+  }
+
   use "barrett-ruth/live-server.nvim"
 
   use "windwp/nvim-ts-autotag"
 
   use "turbio/bracey.vim"
-
-  use "lukas-reineke/indent-blankline.nvim" -- text indentation
 
   use {
 	  'phaazon/hop.nvim',
