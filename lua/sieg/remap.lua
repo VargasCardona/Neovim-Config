@@ -49,7 +49,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "<C-p>", ":w <CR> :sp <CR> :term python3 % <CR> <Esc>i")
 vim.keymap.set("n", "<C-ho", ":w <CR> :silent !firefox % <CR>")
 
-vim.keymap.set("n", "<leader>s", ":w <CR>")
+vim.keymap.set("n", "<C-s>", ":w <CR>")
 
 vim.keymap.set("n", "<leader>w", ":HopWord <CR>" )
 vim.keymap.set("x", "<leader>w", ":HopWord <CR>" )

@@ -121,6 +121,11 @@ _G.packer_plugins = {
     path = "/home/sieg/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
+  ["lackluster.nvim"] = {
+    loaded = true,
+    path = "/home/sieg/.local/share/nvim/site/pack/packer/start/lackluster.nvim",
+    url = "https://github.com/slugbyte/lackluster.nvim"
+  },
   ["live-server.nvim"] = {
     loaded = true,
     path = "/home/sieg/.local/share/nvim/site/pack/packer/start/live-server.nvim",
@@ -237,22 +242,22 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: hop.nvim
-time([[Config for hop.nvim]], true)
-try_loadstring("\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0", "config", "hop.nvim")
-time([[Config for hop.nvim]], false)
--- Config for: monochrome.nvim
-time([[Config for monochrome.nvim]], true)
-try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\27colorscheme monochrome\bcmd\bvim\0", "config", "monochrome.nvim")
-time([[Config for monochrome.nvim]], false)
 -- Config for: mellifluous.nvim
 time([[Config for mellifluous.nvim]], true)
 try_loadstring("\27LJ\2\nm\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\28colorscheme mellifluous\bcmd\bvim\nsetup\16mellifluous\frequire\0", "config", "mellifluous.nvim")
 time([[Config for mellifluous.nvim]], false)
+-- Config for: monochrome.nvim
+time([[Config for monochrome.nvim]], true)
+try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\27colorscheme monochrome\bcmd\bvim\0", "config", "monochrome.nvim")
+time([[Config for monochrome.nvim]], false)
 -- Config for: duck.nvim
 time([[Config for duck.nvim]], true)
 try_loadstring("\27LJ\2\n?\0\0\4\0\4\0\b6\0\0\0'\2\1\0B\0\2\0029\0\2\0'\2\3\0)\3\n\0B\0\3\1K\0\1\0\t😀\nhatch\tduck\frequire1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\tcook\tduck\frequiret\1\0\6\0\b\0\0176\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0003\4\5\0004\5\0\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\6\0003\4\a\0004\5\0\0B\0\5\1K\0\1\0\0\15<leader>dk\0\15<leader>dd\6n\bset\vkeymap\bvim\0", "config", "duck.nvim")
 time([[Config for duck.nvim]], false)
+-- Config for: hop.nvim
+time([[Config for hop.nvim]], true)
+try_loadstring("\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0", "config", "hop.nvim")
+time([[Config for hop.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

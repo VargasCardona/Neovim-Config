@@ -117,6 +117,8 @@ return require('packer').startup(function(use)
 
   use 'kvrohit/rasmus.nvim' -- Rasmus theme
 
- use "rebelot/kanagawa.nvim"
+  use "rebelot/kanagawa.nvim"
+
+  use "slugbyte/lackluster.nvim"
 
 end)
