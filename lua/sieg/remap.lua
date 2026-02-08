@@ -54,5 +54,8 @@ vim.keymap.set("n", "<C-s>", ":w <CR>")
 vim.keymap.set("n", "<leader>w", ":HopWord <CR>" )
 vim.keymap.set("x", "<leader>w", ":HopWord <CR>" )
 
-vim.keymap.set("v", "<", ">gv")
-vim.keymap.set("v", ">", "<gv")
+vim.keymap.set("v", ">", ">gv")
+vim.keymap.set("v", "<", "<gv")
+vim.opt.shiftwidth = 2 
+vim.opt.tabstop = 2 
+vim.opt.softtabstop = 2
