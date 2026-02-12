@@ -1,4 +1,6 @@
 vim.g.mapleader = " "
+
+
 vim.keymap.set("c", "<Tab>", "<C-C><Esc>")
 vim.keymap.set("i", "<Tab>", "<Esc>`^")
 
@@ -37,7 +39,6 @@ vim.keymap.set("n", "<Left>", "<Nop>")
 vim.keymap.set("n", "<Right>", "<Nop>")
 
 vim.keymap.set("i", "<Up>", "<Nop>")
---vim.keymap.set("i", "<Down>", "<Nop>")
 vim.keymap.set("i", "<Left>", "<Nop>")
 vim.keymap.set("i", "<Right>", "<Nop>")
 
@@ -56,6 +57,17 @@ vim.keymap.set("x", "<leader>w", ":HopWord <CR>" )
 
 vim.keymap.set("v", ">", ">gv")
 vim.keymap.set("v", "<", "<gv")
+
 vim.opt.shiftwidth = 2 
 vim.opt.tabstop = 2 
 vim.opt.softtabstop = 2
+vim.opt.relativenumber = true
+vim.opt.nu = true
+vim.opt.wrap = false
+vim.opt.backup = false
+vim.opt.swapfile = false
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+vim.opt.termguicolors = true
+vim.opt.scrolloff = 8
+vim.opt.updatetime = 50
